@@ -1,0 +1,43 @@
+version: 0.0.1
+type: plugin
+author: lfenghx
+name: qwentext2image
+label:
+  en_US: qwentext2image
+  ja_JP: qwentext2image
+  zh_Hans: 千问image插件
+  pt_BR: qwentext2image
+description:
+  en_US: 千问image文生图便捷式插件
+  ja_JP: 千问image文生图便捷式插件
+  zh_Hans: 千问image系列快捷调用插件
+  pt_BR: 千问image文生图便捷式插件
+icon: qwentxt2img.svg
+resource:
+  memory: 268435456
+  permission:
+    tool:
+      enabled: true
+    endpoint:
+      enabled: true
+    app:
+      enabled: true
+    storage:
+      enabled: true
+      size: 1048576
+plugins:
+  tools:
+    - provider/qwentext2image.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: null
+created_at: 2025-08-25T21:21:28.811683+08:00
+privacy: PRIVACY.md
+verified: false

@@ -1,0 +1,56 @@
+identity:
+  name: qwenimageedit
+  author: lfenghx
+  label:
+    en_US: qwenimageedit
+    zh_Hans: 千问image图片调整
+    pt_BR: qwenimageedit
+description:
+  human:
+    en_US: 千问image文生图便捷式插件
+    zh_Hans: 千问image文生图便捷式插件
+    pt_BR: 千问image文生图便捷式插件
+  llm: 千问image文生图便捷式插件
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: text2image description
+      zh_Hans: 图片修改描述
+      pt_BR: text2image description
+    human_description:
+      en_US: please input your query string
+      zh_Hans: 请输入你的图片调整描述
+      pt_BR: please input your query string
+    llm_description: 图片修改的描述语句
+    form: llm
+  - name: key
+    type: secret-input
+    required: true
+    label:
+      en_US: Qwen image key
+      zh_Hans: Qwen image 密钥
+      pt_BR: Qwen image key
+    human_description:
+      en_US: please input your key string
+      zh_Hans: 请输入你的密钥
+      pt_BR: please input your key string
+    llm_description: 密钥
+    form: llm
+  - name: image
+    type: file
+    required: true
+    label:
+      en_US: image
+      zh_Hans: 图片
+      pt_BR: image
+    human_description:
+      en_US: please input your image
+      zh_Hans: 请传入你需要修改的图片
+      pt_BR: please input your image
+    llm_description: 图片
+    form: llm
+extra:
+  python:
+    source: tools/qwenimageedit.py

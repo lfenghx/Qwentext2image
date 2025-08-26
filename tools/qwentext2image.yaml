@@ -1,0 +1,43 @@
+identity:
+  name: qwentext2image
+  author: lfenghx
+  label:
+    en_US: qwentext2image
+    zh_Hans: 千问image文生图
+    pt_BR: qwentext2image
+description:
+  human:
+    en_US: 千问image文生图便捷式插件
+    zh_Hans: 千问image文生图便捷式插件
+    pt_BR: 千问image文生图便捷式插件
+  llm: 千问image文生图便捷式插件
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: text2image description
+      zh_Hans: 文生图描述
+      pt_BR: text2image description
+    human_description:
+      en_US: please input your query string
+      zh_Hans: 请输入你的文生图描述
+      pt_BR: please input your query string
+    llm_description: 文生图的描述语句
+    form: llm
+  - name: key
+    type: secret-input
+    required: true
+    label:
+      en_US: Qwen image key
+      zh_Hans: Qwen image 密钥
+      pt_BR: Qwen image key
+    human_description:
+      en_US: please input your key string
+      zh_Hans: 请输入你的文生图密钥
+      pt_BR: please input your key string
+    llm_description: 文生图的密钥
+    form: llm
+extra:
+  python:
+    source: tools/qwentext2image.py
