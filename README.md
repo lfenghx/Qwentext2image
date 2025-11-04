@@ -28,4 +28,8 @@ Output Parameters:
 text: Provides real-time updates to help you keep track of the image adjustment progress.
 file: The adjusted image file obtained after the image adjustment process is successful.
 
-插件 github 仓库地址：https://github.com/lfenghx/Qwentext2image
+Plugin github repository address：https://github.com/lfenghx/Qwentext2image
+Contact the Author：
+Email：550916599@qq.com
+WeChat：lfeng2529230
+github：lfenghx
