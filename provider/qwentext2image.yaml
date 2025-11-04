@@ -3,12 +3,12 @@ identity:
   name: qwentext2image
   label:
     en_US: qwentext2image
-    zh_Hans: qwentext2image
+    zh_Hans: 千问image文生图
     pt_BR: qwentext2image
   description:
-    en_US: 千问image文生图便捷式插件
+    en_US: qwentext2image
     zh_Hans: 千问image文生图便捷式插件
-    pt_BR: 千问image文生图便捷式插件
+    pt_BR: qwentext2image
   icon: qwentxt2img.svg
 tools:
   - tools/qwentext2image.yaml
