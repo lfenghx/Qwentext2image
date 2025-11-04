@@ -8,10 +8,10 @@ label:
   zh_Hans: 千问image插件
   pt_BR: qwentext2image
 description:
-  en_US: 千问image文生图便捷式插件
-  ja_JP: 千问image文生图便捷式插件
+  en_US: QwenImage Text-to-Image Convenient Plugin
+  ja_JP: QwenImage Text-to-Image 便捷式プラグイン
   zh_Hans: 千问image系列快捷调用插件
-  pt_BR: 千问image文生图便捷式插件
+  pt_BR: QwenImage Text-to-Image Plugin Conveniente
 icon: qwentxt2img.svg
 resource:
   memory: 268435456

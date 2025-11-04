@@ -76,7 +76,6 @@ class QwenimageeditTool(Tool):
             
             # 处理图片文件
             yield self.create_text_message("🖼️ 开始处理上传的图片...\n")
-            
             # 从Dify文件对象获取图片数据
             if image.blob:
                 # 如果有二进制数据，直接使用

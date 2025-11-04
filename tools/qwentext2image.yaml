@@ -7,10 +7,10 @@ identity:
     pt_BR: qwentext2image
 description:
   human:
-    en_US: 千问image文生图便捷式插件
+    en_US: qwentext2image
     zh_Hans: 千问image文生图便捷式插件
-    pt_BR: 千问image文生图便捷式插件
-  llm: 千问image文生图便捷式插件
+    pt_BR: qwentext2image
+  llm: qwentext2image
 parameters:
   - name: query
     type: string
@@ -23,7 +23,7 @@ parameters:
       en_US: please input your query string
       zh_Hans: 请输入你的文生图描述
       pt_BR: please input your query string
-    llm_description: 文生图的描述语句
+    llm_description: please input your query string
     form: llm
   - name: key
     type: secret-input
@@ -36,7 +36,7 @@ parameters:
       en_US: please input your key string
       zh_Hans: 请输入你的文生图密钥
       pt_BR: please input your key string
-    llm_description: 文生图的密钥
+    llm_description: please input your key string
     form: llm
 extra:
   python:
